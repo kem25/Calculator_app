@@ -74,3 +74,58 @@
 	color: rgba(255,255,255,.5);
 	padding-left: 4px;
 }
+
+#mycalculator form{
+	background-color: #000;
+	margin: 0;
+	padding: 10px 0;
+}
+
+#mycalculator form br {
+	display: none;
+}
+
+#mycalculator form > div {
+	color: #fff;
+	width: 33%;
+	float: left;
+	text-align: center;
+	padding-left: 10px 0 5px 0;
+}
+#mycalculator form::after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+#mycalculator form h4{
+	color: #aaa;
+	margin: 0 0 -5px 0;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+#mycalculator form p {
+	color: #888;
+	margin: 0 0 6px 0;
+	font-size: .9em;
+}
+#mycalculator form input[type=number] {
+	width: 50px;
+	text-align: left;
+	font-size: 1em;
+}
+#mycalculator form select {
+	font-size: 1em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	background: #fff url(images/icons_arrows.svg) no-repeat right 6px;
+	background-size: 30px 20px;
+	padding: 3px 30px 3px 5px;
+}
+
+#mycalculator form select::-ms-expand {
+	display: none;
+}
