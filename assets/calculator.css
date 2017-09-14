@@ -22,3 +22,20 @@
 	display: block;
 	clear: both;
 }
+
+#mycalculator main section.inc{
+	background-color: #ba2d2d;
+	background-image: url(images/bulb_inc.svg)
+}
+#mycalculator main section.hal{
+	background-color: #df6512;
+	background-image: url(images/bulb_hal.svg)
+}
+#mycalculator main section.cfl{
+	background-color: #efc20f;
+	background-image: url(images/bulb_cfl.svg)
+}
+#mycalculator main section.led{
+	background-color: #36b23c;
+	background-image: url(images/bulb_led.svg)
+}
