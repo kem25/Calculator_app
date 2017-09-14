@@ -39,3 +39,26 @@
 	background-color: #36b23c;
 	background-image: url(images/bulb_led.svg)
 }
+
+#mycalculator main section > div {
+	padding: 5px 0;
+	background-color: rgba(0,0,0,.15);
+}
+
+#mycalculator main h4 {
+	font-family: 'Open Sans Condensed', san-serif;
+	font-size: .8em;
+	letter-spacing: 1px;
+	margin: 0 0 5px 0;
+	text-transform: uppercase;
+	}
+#mycalculator main p {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 700;
+	} 
+
+#mycalculator main p + p {
+	font-size: 1em;
+	font-weight: 300 ;
+}
